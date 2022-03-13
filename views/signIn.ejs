@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/css/sign.css" />
+  </head>
+  <body>
+    
+    <div class="outer-div">
+      <p class="header">SIGN IN</p>
+      <form action="/users/sign-in" method="get">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter Email"
+          required
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter Password"
+          required
+        />
+        <div class="button-div">
+          <input type="submit" value="Sign In" class="submit-button" />
+        </div>
+      </form>
+      <div class="create">     
+         <a href="/sign-up">Create Account</a>
+      </div>
+
+    </div>
+  </body>
+</html>
